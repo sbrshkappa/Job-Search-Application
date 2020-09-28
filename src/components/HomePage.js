@@ -98,7 +98,7 @@ const HomePage = (props) => {
             </button>
           </div>
         )}
-      </div>uo
+      </div>
       <div className={`${page === 'home' && 'hide'}`}>
         {page === 'details' && <JobDetails />}
       </div>
